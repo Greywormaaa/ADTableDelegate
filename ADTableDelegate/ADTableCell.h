@@ -10,6 +10,12 @@
 
 @interface ADTableCell : UITableViewCell
 @property (nonatomic, weak)id delegate;
+/**
+ *  为cell填充数据，子类实现
+ */
 - (void)fillData:(id)data;
+/**
+ *  返回当前cell高度，子类实现
+ */
 + (CGFloat)computeHeight:(id)data;
 @end

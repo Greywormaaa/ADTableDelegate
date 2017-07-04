@@ -10,6 +10,12 @@
 
 @interface ADTableHeaderFooterView : UITableViewHeaderFooterView
 @property (nonatomic, weak)id delegate;
+/**
+ *  填充数据，子类实现
+ */
 - (void)fillData:(id)data;
+/**
+ *  计算视图高度，子类实现
+ */
 + (CGFloat)computeHeight:(id)data;
 @end
