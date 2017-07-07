@@ -10,7 +10,9 @@
 
 #import "ViewController.h"
 #import "ADTableDelegate.h"
-
+#import "ADCellModel.h"
+#import "ADTableCell.h"
+#import "ADTableHeaderFooterView.h"
 
 #pragma mark - 测试cell
 #pragma mark -

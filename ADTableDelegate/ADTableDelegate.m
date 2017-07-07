@@ -7,6 +7,9 @@
 //
 
 #import "ADTableDelegate.h"
+#import "ADCellModel.h"
+#import "ADTableCell.h"
+#import "ADTableHeaderFooterView.h"
 
 @interface ADTableDelegate ()
 @property (nonatomic, weak)id responder;

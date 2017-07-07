@@ -10,9 +10,7 @@
 //  注意 : 使用该类的对象，TableView 的 cell 必须继承自 ADTableCell，headerFooterView 必须继承自ADTableHeaderFooterrView
 //
 #import <UIKit/UIKit.h>
-#import "ADCellModel.h"
-#import "ADTableCell.h"
-#import "ADTableHeaderFooterView.h"
+@class ADSectionModel;
 
 @interface ADTableDelegate : NSObject <UITableViewDelegate, UITableViewDataSource>
 // 整个Table view的数据源
